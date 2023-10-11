@@ -1,5 +1,6 @@
 # Bill Total
-bill = 47.56
+bill = input("Please enter your bill amount")
+bill =float(bill)
 
 # Tip Percentages of the Bill Total
 tip_10_percent = 0.10
