@@ -1,3 +1,7 @@
+name = input("Hello, what is your name? ")
+print(f"Hello {name},")
+
+
 # Game Point Totals
 game1 = input("Enter total points scored in game 1  ")
 game2 = input("Enter total points scored in game 2  ")
