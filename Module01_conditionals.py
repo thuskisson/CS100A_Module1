@@ -9,5 +9,11 @@ if age == 16:
     print("Congratulations, you can drive! ")
 if age == 17:
     print("You're almost eligible to vote. At least you can drive! ")
-if age >= 18:
+if age >= 18 and age < 21:
     print("You're eligible to vote. ")
+if age >= 21 and age < 55:
+    print("You can enjoy a beer")
+if age >= 55:
+    print("You get the senior discount")
+if age >= 100:
+    print("Wow, you are old!")
