@@ -2,6 +2,8 @@
 bill = input("Please enter your bill amount ")
 bill =float(bill)
 
+# Create a function
+
 # Tip Percentages of the Bill Total
 tip_10_percent = 0.10
 tip_15_percent = 0.15

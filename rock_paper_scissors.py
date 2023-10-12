@@ -15,7 +15,7 @@ if throw == 3:
 
 #Random number generator
 import random
-my_throw = random.randint(1,3)
+my_throw = random.randint(1,4)
 
 #Tell the user what my choice was
 if my_throw == 1:
