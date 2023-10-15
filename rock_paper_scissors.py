@@ -2,7 +2,7 @@ import random
 
 #Introduction to user
 name = input("Hello, what is your name? ")
-print((f"Hello {name}, lets play Rock, Paper, Scissors. "))
+print((f"Hello {name}, lets play Rock, Paper, Scissors. Best of 7 series."))
 
 
 #Best of 7 loop
@@ -13,6 +13,8 @@ while cpu_wins < 4 and user_wins < 4:
 
     #Ask user for their "throw" or choice.
     throw = int(input("Press 1 for 'rock', 2 for 'paper' and 3 for 'scissors'. "))
+    if throw != 1 or throw != 2 or throw != 3:
+        print("Please input a valid number. ")
 
     #Tell the user what their choice was
     if throw == 1:
@@ -62,7 +64,10 @@ while cpu_wins < 4 and user_wins < 4:
         tie = False
         cpu_wins +=1
 
+# Display the total score.
+    print(f"The score is you {user_wins} and me {cpu_wins}. ")
+
     if user_wins >= 4:
         print("Congratulations! You win this series!")
-    else:
+    if cpu_wins >= 4:
         print("I win this series. Better luck next time!")
